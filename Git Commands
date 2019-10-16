@@ -1,0 +1,51 @@
+Git Commands
+
+Objective  : To move SoapUI Projects from Local System to Git
+
+Login to git hub using 
+user mail : sudheer.simple@gmail.com
+pwd       : S54852s#
+
+Project Location path : cd C:\Users\lenoivo\Documents\SoapUI-Projects
+
+// First time to run 
+C:\Users\lenoivo\Documents\SoapUI-Projects>git init
+
+// To Check the Status
+C:\Users\lenoivo\Documents\SoapUI-Projects>git status
+
+//To Add ALL Projects into Git
+C:\Users\lenoivo\Documents\SoapUI-Projects>git add . 
+
+//To Add particular Projects into Git (give name of the Project at the End)
+C:\Users\lenoivo\Documents\SoapUI-Projects>git add REST-Project-1-soapui-project.xml
+
+// Status after added into  Git color got changed to GREEN
+
+//if you got any error as below
+// *** Please tell me who you are.
+
+C:\Users\lenoivo\Documents\SoapUI-Projects>git config --global user.email "sudheer.simple@gmail.com"
+C:\Users\lenoivo\Documents\SoapUI-Projects>git config --global user.name "sudheerdv"
+
+// To Commit changes into the Git
+C:\Users\lenoivo\Documents\SoapUI-Projects>git commit -m "Adding SoapUI Projects"
+
+//To Push the changes into the Git
+C:\Users\lenoivo\Documents\SoapUI-Projects>git push -u https://github.com/sudhee9/SoapUIProject.git master
+
+//To Push the modified changes with comment
+C:\Users\lenoivo\Documents\SoapUI-Projects>git commit -m "Updated Project name"
+
+// To check for the changes in Git GUI
+Go to "https://github.com/sudhee9/SoapUIProject" refesh the page at the right corner you under Latest Commit will find updated details (ex: 5 minutes ago)
+
+// To remove your project from git repository
+go to your project path in Local repository view hidden folder .git folder delete it
+
+// To Remove Respository
+Go to Settings -> delete this repsoitory at the bottom give repository name  then click Delete respository.
+
+
+
+ 
